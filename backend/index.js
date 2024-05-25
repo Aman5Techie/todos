@@ -16,34 +16,6 @@ const router = require("./routers/router")
 
 app.use("/",router);
 
-app.listen(process.env.PORT,()=>{
-    console.log(`Listening ON port ${process.env.PORT}`);
+app.listen(3000,()=>{
+    console.log(`Listening ON port ${3000}`);
 })
-// const temp = {
-//   title: "Temp Task 1",
-//   due: "03-Oct",
-//   status: "progress",
-//   id: 1526,
-// };
-// const temp2 = {
-//   title: "Temp Task 2",
-//   due: "04-Oct",
-//   status: "completed",
-//   id: 2025,
-// };
-// const temp3 = {
-//   title: "Temp Task 4",
-//   due: "06-Oct",
-//   status: "pending",
-//   id: 2025,
-// };
-
-// const todos = [temp, temp2, temp3];
-// const to = todos.find((obj) => {
-//     return obj.id == 2025;
-//   })
-
-//   to.title = "Sss"
-// console.log(
-//   todos
-// );
